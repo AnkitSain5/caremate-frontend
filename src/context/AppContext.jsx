@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 export const AppContext = createContext();
 
 const AppContextProvider = (props) => {
-  const currency = "$";
+  const currency = "₹";
   const backendUrl = "https://caremate-backend.onrender.com";
   const [doctors, setDoctors] = useState([]);
   const [token, setToken] = useState(
